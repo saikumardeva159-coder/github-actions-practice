@@ -2,7 +2,7 @@ info = {"name": "John", "age": 30, "city": "New York"}
 print(info["name"])  # Output: John
 info["age"] = 31  # Update age  
 
-
+# add lint
  # Update city and add country
 
 info.update({"city": "hyderabad", "country": "india"})  # Update city and add country
