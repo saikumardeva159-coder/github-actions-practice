@@ -2,7 +2,10 @@ info = {"name": "John", "age": 30, "city": "New York"}
 print(info["name"])  # Output: John
 info["age"] = 31  # Update age  
 
-info.update({"city": "Los Angeles", "country": "USA"})  # Update city and add country
+
+ # Update city and add country
+
+info.update({"city": "hyderabad", "country": "india"})  # Update city and add country
 info["email"] = "s@g.com"  # Add email  
 print(info)  # Output: {'name': 'John', 'age': 31, 'city': 'Los Angeles', 'country': 'USA', 'email': '
 print(dir(info))  # Output: List of all attributes and methods of the dictionary
